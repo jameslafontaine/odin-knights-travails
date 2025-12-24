@@ -93,5 +93,3 @@ This project was built to develop practical experience with:
 
 This project is for educational purposes and follows The Odin Project curriculum guidelines.
 Feel free to fork, modify, and explore.
-
-```
