@@ -95,5 +95,3 @@ This project is for educational purposes and follows The Odin Project curriculum
 Feel free to fork, modify, and explore.
 
 ```
-
-```
