@@ -22,6 +22,7 @@ The solution uses **breadth-first search (BFS)** to guarantee the shortest path,
 -   Uses breadth-first search to find the shortest path
 -   Outputs the path length and exact sequence of moves
 -   Clean, readable implementation focused on clarity
+-   Supports both algebraic notation (e.g. "e4") and coordinates [4, 3] for input and output
 
 ---
 
@@ -40,6 +41,7 @@ The solution uses **breadth-first search (BFS)** to guarantee the shortest path,
 
 ```js
 knightMoves([0, 0], [7, 7]);
+knightMoves("a1", "h8");
 ```
 
 ```console
@@ -51,6 +53,16 @@ knightMoves([0, 0], [7, 7]);
 [ 3, 5 ]
 [ 5, 6 ]
 [ 7, 7 ]
+
+=> You made it in 6 move(s)! Here's your path:
+a1
+b3
+a5
+b7
+d6
+f7
+h8
+
 ```
 
 ---
